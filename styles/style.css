@@ -124,7 +124,7 @@ body{
     background-color: var(--color-terceario);
     text-align: center;
     color: var(--color-primario);
-    padding: 1.5rem;
+    padding: 1.25rem;
     font-family: var(--fuente-montserrat);
     font-size: 1.5rem;
     font-weight: 400;
@@ -156,18 +156,21 @@ body{
 
 @media(max-width: 800px){
     .encabezado{
-        padding: 10%
+        padding: 5%
     }
 
     .encabezado__menu{
         justify-content: center;
-        padding: 10%;
-        font-size: 10px;
+        padding: 5%;
         gap: 40px;
+    }
+
+    .encabezado__menu__link{
+        font-size: 18px;
     }
     .presentacion {
         flex-direction: column-reverse;
-        padding: 10%;
+        padding: 8%;
     }
 
     .presentacion__contenido{
@@ -175,7 +178,7 @@ body{
     }
 
     .presentacion__enlaces__link{
-        width: 70%;
+        width: 90%;
     }
 
     .presentacion__imagen{
