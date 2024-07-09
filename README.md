@@ -6,4 +6,3 @@ Para correr el portafolio debes:
 
 ```link deploy vercel```
 <br>
-<a href="portafolio-practica-ana-garcia.vercel.app">
